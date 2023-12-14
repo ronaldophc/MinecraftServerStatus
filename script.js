@@ -107,3 +107,4 @@ function onPlayerStateChange(event) {
 function stopVideo() {
   player.stopVideo();
 }
+window.onload = onYouTubeIframeAPIReady();
