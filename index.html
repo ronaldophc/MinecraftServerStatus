@@ -21,9 +21,9 @@
                 </button>
             </div>
         </nav>
-        <div class="row">
+        <div class="row mt-5 d-flex justify-content-center">
             <!-- Formulário -->
-            <div class="col-4 mt-5 align-items-center">
+            <div class="col-auto">
                 <div class="form-floating">
                     <input type="text" class="form-control" id="ip" value="legend.pvp.host"
                         placeholder="name@example.com">
@@ -32,18 +32,19 @@
             </div>
 
             <!-- Botão -->
-            <div class="col-2 mt-5 align-items-center">
-                <button type="submit" id="submit" class="btn btn-primary btn-lg btn-block">Ok</button>
-            </div>
+            <button type="submit" id="submit" class="col-auto btn btn-primary btn-lg btn-block">Ok</button>
 
-            <!-- Visualização do Jogador (Player) -->
-            <div class="col-6 mt-5">
-                <iframe id="ytplayer" type="text/html" width="640" height="360"
-                    src="https://www.youtube.com/embed/rQzSiiRe6YM?autoplay=1&origin=http://example.com" frameborder="0">
-                </iframe>
-            </div>
+            
         </div>
-        <div id="results" class="mt-5 results text-white"></div>
+        
+        <!-- Resultados-->
+        <div id="results" class="mt-5 results text-white d-flex justify-content-center"></div>
+
+        <!-- Visualização do Jogador (Player) -->
+        <div class="ratio ratio-21x9 mt-5">
+            <iframe src="https://www.youtube.com/embed/rQzSiiRe6YM?autoplay=1&origin=http://example.com" allowfullscreen frameborder="0"></iframe>
+        </div>
+
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="#" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
